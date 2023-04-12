@@ -1,0 +1,26 @@
+:root{
+    --ab: #b6895b;
+    --bg: #010101;
+}
+.btn {
+    background-color: var(--ab);
+}
+/* .container{
+    background-color: var(--bg);
+   
+} */
+.card{
+    background-color: var(--ab);
+    box-shadow: 0 7px 15px 0 rgba(0 ,0,0, 0.8);
+    /* border-bottom:10px solid var(--bg) ; */
+}
+.card-body{
+    
+    background-color: #fff;
+   box-shadow: 0 7px 15px 0 rgba(0 ,0,0, 1);
+   
+}
+.card-text{
+    text-transform: capitalize;
+    font-style: italic;
+}
